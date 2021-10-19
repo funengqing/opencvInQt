@@ -39,7 +39,8 @@ int main()
     //secondDay();
     Mat img = imread("fromiphone.jpg",IMREAD_COLOR);
     QuickDemo qd;
-    qd.colorSpace_Demo(img);
+    //qd.colorSpace_Demo(img);
+    qd.mat_creation_demo(img);
     waitKey(0);
     destroyAllWindows();
     return 0;
