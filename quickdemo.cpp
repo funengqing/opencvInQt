@@ -1,4 +1,5 @@
 #include "quickopencv.h"
+
 void QuickDemo::colorSpace_Demo(Mat &image){
   Mat gray,hsv;
   cvtColor(image,hsv,COLOR_RGB2HSV);
@@ -9,4 +10,8 @@ void QuickDemo::colorSpace_Demo(Mat &image){
   imshow("GRAY",gray);
   imwrite("./hsv.png",hsv);
   imwrite("./gray.png",gray);
+}
+
+void QuickDemo::mat_creation_demo(Mat &image){
+
 }
